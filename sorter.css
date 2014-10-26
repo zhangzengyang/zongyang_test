@@ -1,0 +1,36 @@
+* {
+	font-family: verdana, arial, sans-serif;
+}
+table {
+	text-align: left;
+	border-collapse: collapse;
+	border: 1px solid rgb(157, 157, 157);
+}
+
+tr:nth-child(2n) {
+	background-color: rgba(157, 157, 157,0.8);
+}
+th {
+	color: white;
+	line-height: 1.5rem;
+	border: 1px solid rgb(157, 157, 157);
+	background-color: rgb(0, 0, 121);
+	padding: 0.2rem 1.5rem 0.2rem 0.2rem;
+}
+td {
+	line-height: 1.5rem;
+	border: 1px solid rgb(157, 157, 157);
+	padding: 0.2rem 1.5rem 0.2rem 0.2rem;
+}
+th:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 121, 0.5);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.asc:hover {
+	background-image: url(ascend.png );
+}
+.desc:hover {
+	background-image: url(descend.png );
+}
